@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Management</title>
+</head>
+<body>
+
+<h1>Event Management System</h1>
+
+{% for event in events %}
+
+<div style="border:1px solid black; padding:10px; margin:10px;">
+    <h2>{{ event.title }}</h2>
+    <p><b>Description:</b> {{ event.description }}</p>
+    <p><b>Date:</b> {{ event.date }}</p>
+    <p><b>Location:</b> {{ event.location }}</p>
+</div>
+
+{% empty %}
+
+<p>No events available</p>
+
+{% endfor %}
+
+</body>
+</html>
