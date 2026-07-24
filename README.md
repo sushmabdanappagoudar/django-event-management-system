@@ -10,6 +10,7 @@ This project demonstrates the implementation of Django's **MVT architecture, aut
 
 ## ✨ Features
 
+
 - 🔐 User Registration
 - 🔑 User Login and Authentication
 - 📅 View Available Events
